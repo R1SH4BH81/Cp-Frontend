@@ -1,0 +1,30 @@
+.showcase-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.showcase-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.loader {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  /* Customize your loader style here */
+}
+
+/* Optional: To handle different mobile styling */
+@media (max-width: 768px) {
+  .showcase-image {
+    /* Mobile-specific styling if needed */
+  }
+}
