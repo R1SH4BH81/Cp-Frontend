@@ -1,28 +1,114 @@
 # CirclePe Assignment
 
-This is a simple project which lists all the steps on how CirclePe's App Interface works in just 5 Minutes.
 
+## Project Overview
+This project is a responsive website implementation based on the provided Figma design and prototype. The website has been designed to be fully responsive across different screen sizes, ensuring a seamless user experience on mobile, tablet, and desktop devices. The implementation includes pixel-perfect design, transitions, animations, cross-browser compatibility, performance optimization, and accessibility considerations.
 
-## Preferred Package Manager
+## Getting Started
 
-I've used [`pnpm`](https://pnpm.io/) as the preferred package manager for the project as it is faster than [`npm`](https://docs.npmjs.com/cli/v10) and [`yarn`](https://classic.yarnpkg.com/en/).
+### Prerequisites
+Before you begin, ensure you have the following installed on your system:
 
-## The Approach
+ - Node.js (version 18 and above)
+ - npm (version 6 or above)
+ - VS Code ( or any other code editor)
 
-The animations and the design was made in a [Figma Project](https://www.figma.com/proto/dsAjYtJma8Nnpoxd8VuUii/Untitled?page-id=0:1&node-id=1-57&node-type=FRAME&viewport=2073,400,0.2&t=7drkJlj6sjbV83Ao-1&scaling=min-zoom&content-scaling=fixed), sent by the CirclePe team. I've tried to make the project as close to the design as possible.
+### Installation
 
-I choose to scroll through the different pages
+Follow these steps to set up the project locally:
 
-I've followed a simple approach where I try and make almost every component and setting reusable and scalable, which is the main point of using a Virtual DOM library like React.
+  1. Clone the repository:
+     ```
+     
+       git clone https://github.com/mavidishu/CirclePe_Assignment.git
+     
+     ```
+  2. Navigate to the Project Directory:
 
-I've used a simple folder structure where I've kept all the components with their names in the `Components` folder.
+     ```
+     
+       cd CirclePe_Assignment
+     
+     ```
+  3. Install Dependencies:
 
-## Animations
+     ```
+     
+       npm install
+     
+     ```
+  4. Run the Project Locally:
 
-All the animations are handled by [Framer Motion](https://www.framer.com/motion/). As Framer Motion can only be used in a `client` page, the `page.tsx` file is a server side rendered page and other pages like `Tutorial.tsx` and `TutorialRecycler.tsx` are client side rendered pages.
+     ```
+     
+       npm run dev
+     
+     ```
 
-As the figma design had a major animation with the Gradient present in the left side of the screen, I've managed to make the gradient animation using Framer Motion, and added a small pulsing and fade in animation.
+### File Structure
+  ```
+    CirclePe-Assignment/
+    │
+    ├── src/
+    │   ├── assets/             # Source assets like images, fonts, etc.
+    │   │   ├── 18_1.png
+    │   │   ├── 18_2.png
+    │   │   ├── phone1.jpg
+    │   │   ├── phone2.jpg
+    │   │   ├── phone3.jpg
+    │   │   ├── phone4_1.jpg
+    │   │   ├── phone4.jpg
+    │   │   ├── phone5.jpg
+    │   │   └── phone6.jpg
+    │   ├── components/         # Reusable components (Header, Footer, etc.)
+    │   │   ├── arrow/
+    │   │   |   ├── arrow.css
+    │   │   |   ├── arrow.jsx
+    │   │   ├── circle/
+    │   │   |   ├── circle.css
+    │   │   |   ├── circle.jsx      
+    │   │   ├── phone/
+    │   │   |   ├── phone.css
+    │   │   |   ├── phone.jsx         
+    │   │   ├── Text/
+    │   │   |   ├── text1.jsx
+    │   │   |   ├── text2.jsx
+    │   │   |   ├── text3.jsx
+    │   │   |   ├── text4.jsx
+    │   │   |   ├── text5.jsx
+    │   │   |   ├── text6.jsx
+    │   │   ├── vertical_line/
+    │   │   |   ├── format_text.jsx
+    │   │   |   ├── rectangle.jsx
+    │   │   ├── format_text.jsx
+    │   │   ├── rectangle.jsx
+    │   │   ├── text.css
+    │   │ 
+    │   ├── App.css      
+    │   ├── App.jsx       
+    │   ├── demo.jsx     
+    │   ├── index.css        
+    │   └── main.jsx
+    │
+    ├── .gitignore              
+    ├── README.md               
+    ├── eslint.config.js        
+    ├── package-lock.json       
+    ├── package.json            
+    ├── index.html              
+    └── vite.config.js          
+  ```
 
-There was a progress bar which was present in the design, I've managed to animate the progress bar according to the page and the best part about it is that it is again dynamic. The progress bar in the responsive design spans the whole width of the screen giving a progress of how much content on the website is left.
+### Technologies Used
+ - HTML5
+ - CSS3
+ - JavaScript (ES6+)
+ - React.js
+ - Bootstrap (for consistent styling)
+ - Framer Motion (for animations)
 
+### Challenges Faced
+ - *Responsive Design:* Ensuring that all elements resize and reflow correctly across different screen sizes was a challenge, particularly with complex layouts.
+ - *Cross-Browser Compatibility:* Testing and fixing issues across different browsers required significant effort.
+ - *Performance Optimization:* Balancing visual fidelity with performance, especially on slower network connections, was a challenge.
 
