@@ -56,12 +56,3 @@ To run the React.js application locally:
     http://localhost:6969
     ```
 
-## Components Overview
-
-- **Background**: Handles the background styling and effects.
-- **Decp**: A component for displaying descriptive text or content.
-- **MobileScroller**: Handles scrolling behavior on mobile devices.
-- **DesktopScroller**: Manages scrolling effects on desktop screens.
-- **Main**: The main component that integrates all the parts.
-- **Custom Hook for Responsiveness**: A hook that manages responsive behavior across different screen sizes.
-.
