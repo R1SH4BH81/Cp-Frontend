@@ -1,8 +1,7 @@
-# CirclePe Assignment
+# [CirclePe Assignment](https://circlepe-frontend.vercel.app/)
 
 This project is developed as part of the CirclePe assignment. The application is built with ReactJS and incorporates custom components and hooks for responsiveness. Icons and design were provided by CirclePe through Figma.
 
-## [Project Link](https://circlepe-frontend.vercel.app/)
 
 
 
