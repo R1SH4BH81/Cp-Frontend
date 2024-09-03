@@ -1,9 +1,9 @@
 # CirclePe Assignment
 
-This project is developed as part of the CirclePe assignment. It includes a responsive Next.js application styled with Tailwind CSS and enhanced with animations using Framer Motion. The application is built with TypeScript and incorporates custom components and hooks for responsiveness. Icons and design were provided by CirclePe through Figma.
+This project is developed as part of the CirclePe assignment. The application is built with ReactJS and incorporates custom components and hooks for responsiveness. Icons and design were provided by CirclePe through Figma.
 
-## Project Link
-https://sri-akshat5.github.io/CirclePe---Assignment/
+## [Project Link](https://circlepe-frontend.vercel.app/)
+
 
 ## Table of Contents
 
