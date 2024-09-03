@@ -2,41 +2,20 @@
 
 
 ## Project Overview
-This project is a responsive website implementation based on the provided Figma design and prototype. The website has been designed to be fully responsive across different screen sizes, ensuring a seamless user experience on mobile, tablet, and desktop devices. The implementation includes pixel-perfect design, transitions, animations, cross-browser compatibility, performance optimization, and accessibility considerations.
+This project is developed as part of the CirclePe assignment.. The application is built with reactJS and incorporates custom components and hooks for responsiveness. Icons and design were provided by CirclePe through Figma.
 
-## Getting Started
+## Link
 
-### Installation
+# Features
+-Responsive design with custom hooks
+-Animations using Framer Motion
 
-Follow these steps to set up the project locally:
 
-  1. Clone the repository:
-     ```
-     
-       git clone https://github.com/mavidishu/CirclePe_Assignment.git
-     
-     ```
-  2. Navigate to the Project Directory:
+# Tech Stack
+React.js: A web framework for production.
+Figma: Design assets and icons provided by CirclePe.
 
-     ```
-     
-       cd CirclePe_Assignment
-     
-     ```
-  3. Install Dependencies:
-
-     ```
-     
-       npm install
-     
-     ```
-  4. Run the Project Locally:
-
-     ```
-     
-       npm run dev
-     
-     ```
+# Installation 
 
 
  
