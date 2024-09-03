@@ -5,29 +5,17 @@ This project is developed as part of the CirclePe assignment. The application is
 ## [Project Link](https://circlepe-frontend.vercel.app/)
 
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Components Overview](#components-overview)
-- [License](#license)
 
 ## Features
 
 - Responsive design with custom hooks
 - Animations using Framer Motion
-- Styled with Tailwind CSS
-- TypeScript for type safety and scalability
+
 
 ## Tech Stack
 
-- **Next.js**: A React framework for production.
-- **TypeScript**: Strongly typed programming language that builds on JavaScript.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React.js**: A Web framework for production.
 - **Framer Motion**: A library to power animations in React.
-- **Postimages**: For image hosting.
 - **Figma**: Design assets and icons provided by CirclePe.
 
 ## Installation
@@ -37,24 +25,24 @@ Follow these steps to download and set up the project locally.
 1. Clone the repository from GitHub:
 
     ```bash
-    git clone https://github.com/Sri-Akshat5/CirclePe---Assignment.git
+    git clone https://github.com/R1SH4BH81/Cp-Frontend.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd circlepe-assignment
+    cd Cp-Frontend.git
     ```
 
 3. Install the dependencies:
 
     ```bash
-    npm install
+    npm i
     ```
 
 ## Running the Application
 
-To run the Next.js application locally:
+To run the React.js application locally:
 
 1. Start the development server:
 
@@ -65,7 +53,7 @@ To run the Next.js application locally:
 2. Open your browser and navigate to:
 
     ```
-    http://localhost:3000
+    http://localhost:6969
     ```
 
 ## Components Overview
